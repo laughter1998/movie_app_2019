@@ -1,7 +1,12 @@
 import React from "react";
 
-function About(){
-    return <span>About this page: i built it because I love</span>
+function About(props){
+    console.log(props);
+    return (
+      <div className="about_container">
+        상세페이지
+      </div>
+    )
 }
 
 
