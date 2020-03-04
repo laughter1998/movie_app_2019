@@ -2,6 +2,7 @@ import React from 'react';
 import axios from "axios";
 import Movie from "../components/Movie";
 import "./Home.css";
+import "./Detail.css";
 
 
 class Home extends React.Component{
@@ -29,7 +30,7 @@ class Home extends React.Component{
     return (
       <section className="container">
         {isLoading ?
-          (<div className="loader"><span className="loader__text">loading...</span></div>)
+          (<div className="loader"><span className="loader__text">loading...(다른 페이지에서 home으로 돌아올때 로딩 보기 싫으면 redux? 를 사용)</span></div>)
           : movies.map(movie => {
           // console.log(movie);
           return (

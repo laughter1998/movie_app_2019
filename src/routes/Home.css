@@ -16,7 +16,9 @@ body,
   padding-top: 70px;
   width: 80%;
 }
-
+a {
+  text-decoration: none;
+}
 .movies .movie {
   width: 45%;
   background-color: white;
