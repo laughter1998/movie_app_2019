@@ -5,9 +5,9 @@ import Detail from "./routes/Detail";
 import Home from "./routes/Home";
 import Navigation from "./components/Navigation";
 
-function App(){  
+function App(){
   return (
-    <HashRouter>
+    <HashRouter>    
     <Navigation />
     <Route path="/" exact={true} component={Home} />
     <Route path="/about" component={About}/>
