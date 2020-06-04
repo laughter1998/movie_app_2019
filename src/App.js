@@ -5,7 +5,7 @@ import Detail from "./routes/Detail";
 import Home from "./routes/Home";
 import Navigation from "./components/Navigation";
 
-function App(){
+function App(){  
   return (
     <HashRouter>
     <Navigation />
